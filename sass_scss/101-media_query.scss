@@ -1,0 +1,11 @@
+$h1-font-size: 20px;
+$h1-font-size-small-screen: 14px;
+$screen-width: 320px;
+
+h1 {
+    font-size: $h1-font-size;
+
+    @media (max-width: $screen-width) {
+        font-size: $h1-font-size-small-screen;
+    }
+}
